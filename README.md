@@ -7,6 +7,8 @@ This repo focus on React fundamentals including:
 - React Hooks: useStat, useEffect, useRef, useContext, useMemo, useReducer.
 - Fetching Data API (Fetch & Axios)
 
+I have devided this repo into different branches and each branch has a topic.
+-----------------------------------------------------------------------------------
 
 
 
