@@ -1,12 +1,12 @@
 import React from 'react'
-import UseCustomHooks from './components/useCustomHook'
+import FetchAxios from './components/fetchAxios'
 
 
 function App() {
 
   return (
     <div>
-      <UseCustomHooks />
+      <FetchAxios />
     </div>
   )
 }
