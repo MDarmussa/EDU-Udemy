@@ -1,12 +1,12 @@
-import React, {useContext} from 'react'
-import UseReducerExample from './components/useReducer'
+import React from 'react'
+import UseCustomHooks from './components/useCustomHook'
 
 
 function App() {
 
   return (
     <div>
-      <UseReducerExample />
+      <UseCustomHooks />
     </div>
   )
 }
