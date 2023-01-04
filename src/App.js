@@ -1,25 +1,23 @@
-import React from 'react'
-import NavBar from './components/NavBar'
-import Footer from './components/Footer'
-import About from './components/About'
-import Content from './components/Content'
-import { Routes, Route, BrowserRouter } from 'react-router-dom'
-import Error404 from './components/Error404'
-import Home from './components/Home'
+import React, {useContext} from 'react'
+import StateExample from './components/useState'
+import UseEffectExample from './components/useEffect'
+import UseRefExample from './components/useRef'
+import {ColorContext} from './components/useContext'
 
 function App() {
+//useContext: it's a hook built-in. in here, it use to receive the data
+  //store the useContext in data variable  
+  const {data, changeData} = useContext(ColorContext)
+  //Note: in order to import our data from useContext file, we need to use line 10   const {data, changeData} = useContext(ColorContext)
+
+  // changeData('green')
+  //5-use context
+  console.log('data in app.js', data)
   return (
     <div>
-     <NavBar />
-     <BrowserRouter>
-          <Routes>
-               <Route path='/' exact element={<Home />} />
-               <Route path='/content' element={<Content />} />
-               <Route path='/about' element={<About />} />
-               <Route path='/footer' element={<Footer />} />
-               <Route path='*' element={<Error404 />} />
-          </Routes>
-     </BrowserRouter>
+      {data.id}
+      {data.name}
+      <UseRefExample />
     </div>
   )
 }
