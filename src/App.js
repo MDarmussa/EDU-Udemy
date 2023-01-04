@@ -26,7 +26,7 @@ const App = () => {
                <NavBar />
                <FormInput />
                {
-                    ch ? (  //OR data.length ? ():().
+                    ch ? (  //OR data.length ? ():()
                          //if we change data.length to ch, const ch will be active either true or false.
                          data.map((item, index)=> { //index is a param / can be anyname / in here, we want to add an index for our data.
                               return(
