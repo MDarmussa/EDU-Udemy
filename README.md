@@ -5,3 +5,5 @@ Install react router: npm i react-router-dom
 <Link to="/"><Button>Go Home</Button></Link> //new verion / fast to navigate without loading the page 
 
 const [count, setCount] = useState(0) // 
+
+
