@@ -1,3 +1,40 @@
+This repo focus on React fundamentals including: 
+- Props
+- Pass functions as props and childrens
+- Render list conditionals
+- Events, Handlers, and User Input
+- React Router(Navigation)
+- React Hooks: useStat, useEffect, useRef, useContext, useMemo, useReducer.
+- Fetching Data API (Fetch & Axios)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
